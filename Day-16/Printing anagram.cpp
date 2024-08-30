@@ -5,7 +5,6 @@ class Solution
 public:
     vector<vector<string>> Anagrams(vector<string> &string_list)
     {
-        // code here
         unordered_map<string, vector<string>> mpp;
         for (auto it : string_list)
         {
